@@ -144,13 +144,13 @@ html_template = '''
                 >
                 <div
                     class="fb-share-button"
-                    data-href="https://franks.website/artificiellt_osterbotten/?headline{headline}"
+                    data-href="https://franks.website/artificiellt-osterbotten/"
                     data-layout="box_count"
                     data-size="small"
                 >
                     <a
                         target="_blank"
-                        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffranks.website%2Fartificiellt_osterbotten%2F&amp;src=sdkpreparse&amp;headline={headline}"
+                        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffranks.website%2Fartificiellt-osterbotten%2F&amp;src=sdkpreparse&amp;headline={headline}"
                         class="fb-xfbml-parse-ignore"
                         >Dela</a
                     >
