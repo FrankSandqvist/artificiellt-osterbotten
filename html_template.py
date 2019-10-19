@@ -127,7 +127,7 @@ html_template = '''
         <div class="container">
             <div class="header">
                 <div class="logocontainer">
-                <a href=".">
+                <a href="https://franks.website/artificiellt-osterbotten/">
                     <img
                         alt=""
                         class="logo"
@@ -144,16 +144,17 @@ html_template = '''
                 >
                 <div
                     class="fb-share-button"
-                    data-href="https://franks.website/artificiellt-osterbotten/"
+                    data-href="https://franks.website/artificiellt-osterbotten/?random={randomint}"
                     data-layout="box_count"
                     data-size="small"
                 >
                     <a
                         target="_blank"
-                        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffranks.website%2Fartificiellt-osterbotten%2F&amp;src=sdkpreparse&amp;headline={headline}"
+                        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffranks.website%2Fartificiellt-osterbotten%2F&amp;src=sdkpreparse&amp;random={randomint}"
                         class="fb-xfbml-parse-ignore"
-                        >Dela</a
                     >
+                        Dela
+                    </a>
                 </div>
                 </div>
             </div>
@@ -170,7 +171,10 @@ html_template = '''
                 <h1>{headline}</h1>
                 <p class="info">
                     Denna rubrik är genererad av ett neuralt nätverk, upplärt med över
-                    25000 tidningsrubriker. Bilden är slumpmässig. Källkod finns
+                    25000 tidningsrubriker. Bilden är slumpmässig. Tryck på logon för en ny rubrik!
+                </p>
+                <p class="info">
+                    Källkod finns
                     <a href="https://github.com/FrankSandqvist/artificiellt-osterbotten">här</a>.
                 </p>
                 <p class="info">

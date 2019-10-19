@@ -49,7 +49,8 @@ def artificiellt_osterbotten(_):
         headline=headline,
         photo_url=photo_url,
         photographer=photographer,
-        photographer_url=photographer_url
+        photographer_url=photographer_url,
+        randomint=randint(0, 100000000) #workaroudn for fb's share cache
     )
 
     return replaced
