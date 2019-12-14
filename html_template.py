@@ -185,9 +185,9 @@ html_template = '''
                     <a href="https://github.com/FrankSandqvist/artificiellt-osterbotten">här</a>.
                 </p>
                 <p class="info">
-                    Intresserad av AI och annat nytt och häftigt? Missa då inte
-                    <a href="https://www.facebook.com/events/2088754771431983/">
-                        NIC Open House
+                    Intresserad av AI och annat nytt och häftigt? Då tycker jag du ska komma hälsa på 
+                    <a href="https://nykarlebyinnovationcenter.fi/">
+                        Nykarleby Innovation Center
                     </a>!
                 </p>
                 <br />
